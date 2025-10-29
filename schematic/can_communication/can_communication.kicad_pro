@@ -411,6 +411,14 @@
     [
       "7f1c7c45-fa4b-4772-81d9-7338c977dadb",
       "Root"
+    ],
+    [
+      "e233710f-d5ed-4b23-a74e-8aa8c2c047df",
+      "microcontroller"
+    ],
+    [
+      "4d3b5463-1545-4370-ad5b-282dd0c05ec4",
+      "can_transceiver"
     ]
   ],
   "text_variables": {}
