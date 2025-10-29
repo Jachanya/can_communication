@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1761733845844_2" label="can_communication" name="can_communication">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CAN_USB_COMMUNICATION" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1761725142737_0" label="Window Working Set" name="Aggregate for window 1761725142737"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1761733311856_1" label="Window Working Set" name="Aggregate for window 1761733311856"/>
+<mruList name="can_communication"/>
 </workingSetManager>

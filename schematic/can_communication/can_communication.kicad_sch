@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "7f1c7c45-fa4b-4772-81d9-7338c977dadb")
-	(paper "A4")
+	(paper "A2")
+	(title_block
+		(title "Microcontroller")
+		(date "2025-10-29")
+		(rev "1")
+		(company "Jachan")
+	)
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H723ZGTx"
 			(exclude_from_sim no)
@@ -3833,10 +3839,408 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLE9371VSJXTMA1:TLE9371VSJXTMA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TLE9371VSJXTMA1"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TLE9371VSJXTMA1:SOIC127P602X173-8N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Interface IC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.73"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "726-TLE9371VSJXTMA1"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE9371VSJXTMA1?qs=8Wlm6%252BaMh8TuJDKUfdbVRw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLE9371VSJXTMA1"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TLE9371VSJXTMA1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "STB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "TLE9371VSJXTMA1:TLE9371VSJXTMA1")
+		(at 364.49 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0c3d56-7881-410f-bc9a-4a0565762a17")
+		(property "Reference" "IC1"
+			(at 378.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLE9371VSJXTMA1"
+			(at 378.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLE9371VSJXTMA1:SOIC127P602X173-8N"
+			(at 388.62 247.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 347.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Interface IC"
+			(at 364.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.73"
+			(at 388.62 547.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-TLE9371VSJXTMA1"
+			(at 388.62 647.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE9371VSJXTMA1?qs=8Wlm6%252BaMh8TuJDKUfdbVRw%3D%3D"
+			(at 388.62 747.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 388.62 847.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLE9371VSJXTMA1"
+			(at 388.62 947.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2fb63a75-59eb-42b1-b03c-dfc2712df251")
+		)
+		(pin "8"
+			(uuid "54f2f83e-a431-4417-aaf1-801181e044f9")
+		)
+		(pin "5"
+			(uuid "721992e6-d8f7-4c41-aeae-a8d43ad3f5c4")
+		)
+		(pin "1"
+			(uuid "2bdb4bdb-390f-42fb-9abe-7eab664c3f0e")
+		)
+		(pin "7"
+			(uuid "d35f5e18-ca01-4da8-9085-c18049d489ee")
+		)
+		(pin "2"
+			(uuid "17e585d1-5fc9-40b6-b384-c1eb54211198")
+		)
+		(pin "6"
+			(uuid "004b77fe-ae53-4fe5-bfed-ec85bb7f02d1")
+		)
+		(pin "4"
+			(uuid "870b4a14-3877-4290-94f3-7924aae6b521")
+		)
+		(instances
+			(project ""
+				(path "/7f1c7c45-fa4b-4772-81d9-7338c977dadb"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H723ZGTx")
-		(at 128.27 104.14 0)
+		(at 269.24 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3845,7 +4249,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ba3cd48-87b9-4728-9ea4-9fe26693f091")
 		(property "Reference" "U1"
-			(at 132.9533 195.58 0)
+			(at 273.9233 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +4258,7 @@
 			)
 		)
 		(property "Value" "STM32H723ZGTx"
-			(at 132.9533 198.12 0)
+			(at 273.9233 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +4267,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
-			(at 95.25 193.04 0)
+			(at 236.22 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4277,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h723zg.pdf"
-			(at 128.27 104.14 0)
+			(at 269.24 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4286,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 1024KB flash, 564KB RAM, 550 MHz, 1.62-3.6V, 114 GPIO, LQFP144"
-			(at 128.27 104.14 0)
+			(at 269.24 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,6 +4730,144 @@
 			(project ""
 				(path "/7f1c7c45-fa4b-4772-81d9-7338c977dadb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLE9371VSJXTMA1:TLE9371VSJXTMA1")
+		(at 364.49 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8e2bb5-eaf0-46d1-8ed5-5c75a854f4bc")
+		(property "Reference" "IC2"
+			(at 378.46 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLE9371VSJXTMA1"
+			(at 378.46 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLE9371VSJXTMA1:SOIC127P602X173-8N"
+			(at 388.62 296.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 396.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Interface IC"
+			(at 364.49 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.73"
+			(at 388.62 596.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "726-TLE9371VSJXTMA1"
+			(at 388.62 696.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLE9371VSJXTMA1?qs=8Wlm6%252BaMh8TuJDKUfdbVRw%3D%3D"
+			(at 388.62 796.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 388.62 896.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLE9371VSJXTMA1"
+			(at 388.62 996.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "d7443c89-8fa0-47b7-b271-043322144240")
+		)
+		(pin "4"
+			(uuid "61acc41e-f7d2-4d52-b905-1d465b8ddb7f")
+		)
+		(pin "8"
+			(uuid "0a35944b-5a86-4fff-b6b4-88e9cf6239e5")
+		)
+		(pin "6"
+			(uuid "fb084ab6-d112-41ec-98a1-2995b5bb5ddf")
+		)
+		(pin "2"
+			(uuid "673647f0-7539-4ee5-8410-9eae9029af68")
+		)
+		(pin "3"
+			(uuid "60e9c400-b0e1-4ef3-9cea-d8104a232865")
+		)
+		(pin "5"
+			(uuid "05c3b192-dc0e-44fe-a0eb-5f6802755b66")
+		)
+		(pin "1"
+			(uuid "f877f2b1-c98c-4940-a6f6-aad6c9bb113f")
+		)
+		(instances
+			(project ""
+				(path "/7f1c7c45-fa4b-4772-81d9-7338c977dadb"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
