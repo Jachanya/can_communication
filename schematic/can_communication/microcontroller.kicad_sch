@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "62170c7e-cc5c-48f6-9ca8-d54d5a0eafd5")
+	(uuid "78a00113-e0f0-41dd-abd1-26ea3f766017")
 	(paper "A2")
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H723ZGTx"
@@ -3834,9 +3834,49 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 224.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af2dc3a-7c11-488e-9fbc-5d729db67f4e")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 224.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9871f4b-01d5-454b-9583-4bc656d70423")
+	)
+	(wire
+		(pts
+			(xy 231.14 71.12) (xy 224.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18f54c6-b9e0-4203-8092-ca27c85e15da")
+	)
+	(wire
+		(pts
+			(xy 231.14 119.38) (xy 224.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dc6099-ff56-4370-b11f-05c19f7df3e6")
+	)
 	(global_label "CAN2_RX"
 		(shape input)
-		(at 224.79 116.84 0)
+		(at 231.14 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3846,7 +3886,7 @@
 		)
 		(uuid "20a6085e-49b7-4ad2-b771-71b37f734121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.1209 116.84 0)
+			(at 242.4709 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3898,7 @@
 	)
 	(global_label "CAN1_RX"
 		(shape input)
-		(at 224.79 71.12 0)
+		(at 231.14 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3868,7 +3908,7 @@
 		)
 		(uuid "47768f44-7aef-42c9-8018-87068661758c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.1209 71.12 0)
+			(at 242.4709 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3920,7 @@
 	)
 	(global_label "CAN1_TX"
 		(shape input)
-		(at 224.79 73.66 0)
+		(at 231.14 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3890,7 +3930,7 @@
 		)
 		(uuid "7af0fa8f-49c7-4fd5-bc2e-d71cb7caefc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.8185 73.66 0)
+			(at 242.1685 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3942,7 @@
 	)
 	(global_label "CAN2_TX"
 		(shape input)
-		(at 224.79 119.38 0)
+		(at 231.14 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3912,7 +3952,7 @@
 		)
 		(uuid "839b7125-f39e-4069-ab32-bbba176e720c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.8185 119.38 0)
+			(at 242.1685 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -396,7 +396,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/jachanya/Downloads/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -419,6 +419,10 @@
     [
       "4d3b5463-1545-4370-ad5b-282dd0c05ec4",
       "can_transceiver"
+    ],
+    [
+      "d50fe5bd-f197-4cab-b7b5-7d0136d722b3",
+      "usb"
     ]
   ],
   "text_variables": {}
