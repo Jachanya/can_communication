@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "78a00113-e0f0-41dd-abd1-26ea3f766017")
+	(uuid "eaf38ce8-15a2-4adf-92b7-14314cdc35bb")
 	(paper "A2")
 	(lib_symbols
 		(symbol "MCU_ST_STM32H7:STM32H723ZGTx"
@@ -3846,26 +3846,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 73.66) (xy 224.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9871f4b-01d5-454b-9583-4bc656d70423")
-	)
-	(wire
-		(pts
-			(xy 231.14 71.12) (xy 224.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b18f54c6-b9e0-4203-8092-ca27c85e15da")
-	)
-	(wire
-		(pts
 			(xy 231.14 119.38) (xy 224.79 119.38)
 		)
 		(stroke
@@ -3873,6 +3853,28 @@
 			(type default)
 		)
 		(uuid "d0dc6099-ff56-4370-b11f-05c19f7df3e6")
+	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 224.79 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07e03c47-c730-4f32-aeaa-b366174fad95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.0042 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CAN2_RX"
 		(shape input)
@@ -3896,9 +3898,9 @@
 			)
 		)
 	)
-	(global_label "CAN1_RX"
+	(global_label "SWDIO"
 		(shape input)
-		(at 231.14 71.12 0)
+		(at 224.79 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3906,31 +3908,9 @@
 			)
 			(justify left)
 		)
-		(uuid "47768f44-7aef-42c9-8018-87068661758c")
+		(uuid "2135f0b6-a488-4d43-b2bb-c8f36c29db0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.4709 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN1_TX"
-		(shape input)
-		(at 231.14 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7af0fa8f-49c7-4fd5-bc2e-d71cb7caefc4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.1685 73.66 0)
+			(at 233.6414 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,6 +3933,72 @@
 		(uuid "839b7125-f39e-4069-ab32-bbba176e720c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.1685 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1_TX"
+		(shape input)
+		(at 224.79 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca51112c-3840-417b-8d40-45911e04bd92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.8185 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape input)
+		(at 148.59 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de653d0a-a04e-404d-9a17-7329dc5cd07c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.8272 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN1_RX"
+		(shape input)
+		(at 224.79 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df05501a-d174-4ccd-8747-2202c910f402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.1209 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
