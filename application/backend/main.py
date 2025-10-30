@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import can
 
 def list_pcan_devices():
@@ -18,6 +19,7 @@ def list_pcan_devices():
     return can_devices
 
 app = Flask(__name__)
+CORS(app) 
 
 # A simple GET endpoint
 @app.route('/can_devices', methods=['GET'])
