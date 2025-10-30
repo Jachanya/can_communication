@@ -2,19 +2,32 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
+      http-equiv="Content‑Security‑Policy"
+      content="default-src 'self'; script-src 'self' http://127.0.0.1:5000"
     />
     <title>Hello from Electron renderer!</title>
   </head>
   <body>
     <h1>Hello from Electron renderer!</h1>
     <p>👋</p>
+
+    <button id="getHelloBtn">Get Hello Message</button>
+    <pre id="helloResult">Waiting for response...</pre>
+
+    <script>
+      document.getElementById('getHelloBtn').addEventListener('click', async () => {
+        try {
+          const response = await fetch('http://127.0.0.1:5000/hello');
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();
+          document.getElementById('helloResult').textContent = JSON.stringify(data, null, 2);
+        } catch (error) {
+          document.getElementById('helloResult').textContent = 'Error: ' + error;
+        }
+      });
+    </script>
   </body>
 </html>
