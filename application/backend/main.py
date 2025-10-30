@@ -20,7 +20,7 @@ def list_pcan_devices():
 app = Flask(__name__)
 
 # A simple GET endpoint
-@app.route('/hello', methods=['GET'])
+@app.route('/can_devices', methods=['GET'])
 def hello():
     return jsonify(list_pcan_devices())
 
