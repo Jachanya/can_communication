@@ -87,3 +87,30 @@
 2025-10-30 07:26:20,728 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.h_save
 2025-10-30 07:26:21,987 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.h
 2025-10-30 07:26:22,397 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.c_save
+2025-10-30 07:26:23,820 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.c
+2025-10-30 07:26:24,345 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-10-30 07:26:25,529 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.h
+2025-10-30 07:26:25,984 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-10-30 07:26:27,082 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.c
+2025-10-30 07:26:28,050 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_it.c_save
+2025-10-30 07:26:29,586 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_it.c
+2025-10-30 07:26:30,187 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_it.h_save
+2025-10-30 07:26:31,520 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_it.h
+2025-10-30 07:26:32,804 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_hal_msp.c_save
+2025-10-30 07:26:34,498 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_hal_msp.c
+2025-10-30 07:26:34,949 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\system.tmp_save
+2025-10-30 07:26:35,733 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\system.tmp
+2025-10-30 07:26:36,543 [INFO] CodeEngine:319 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_hal_conf.h_save
+2025-10-30 07:26:37,922 [INFO] CodeEngine:343 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_hal_conf.h
+2025-10-30 07:26:38,540 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-10-30 07:26:38,552 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-10-30 07:26:39,031 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\main.h_save
+2025-10-30 07:26:40,460 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\main.h
+2025-10-30 07:26:41,121 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\main.c_save
+2025-10-30 07:26:42,825 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\main.c
+2025-10-30 07:26:55,838 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 11691mS.
+2025-10-30 07:26:56,552 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-30 07:26:56,686 [INFO] ConfigFileManager:1590 - The Die is : DIE483
+2025-10-30 07:28:42,109 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 105558mS.
+2025-10-30 07:28:42,130 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 18mS.
+2025-10-30 07:28:43,406 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
