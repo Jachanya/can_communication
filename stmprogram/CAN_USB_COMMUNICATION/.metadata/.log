@@ -242,3 +242,2071 @@ java.io.IOException: An unexpected network error occurred
 	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
 	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:11.840
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:32.362
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:32.479
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:32.632
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:50.240
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:50.679
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:50.705
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:40:50.734
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:08.804
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:15.939
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:16.087
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:16.263
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:27.883
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:36.783
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:36.902
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:41:37.025
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:19.470
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:26.452
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:26.472
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:26.540
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:26.561
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:29.510
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:29.649
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:29.806
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:43.181
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:44.339
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:44.358
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:44.376
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:55.187
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:57.954
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1138)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:58.537
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1138)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:944)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:58.629
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:58.734
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:42:58.915
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.057
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.092
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.removeFilesInIndex(AbstractIndexerTask.java:863)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:563)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.120
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.144
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.421
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.447
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:23.468
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:51.909
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:52.136
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-29 14:43:52.253
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:25:29.471
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:25:29.598
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:25:29.684
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:10.109
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:37.336
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:37.389
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:37.522
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:42.041
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:52.434
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:52.498
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:52.612
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:27:57.026
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:07.480
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:07.524
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:07.563
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:10.471
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:19.202
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:19.221
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:19.241
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:20.238
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:25.391
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:25.417
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:25.440
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:27.223
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:32.399
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:32.433
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:32.466
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:34.689
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:41.006
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:41.027
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:41.051
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:42.061
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:52.628
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:52.660
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:52.685
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:52.710
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:52.731
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.removeFilesInIndex(AbstractIndexerTask.java:863)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:563)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.339
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:977)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.367
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.392
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.754
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:560)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.773
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.giveUpExclusiveLock(Database.java:754)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.releaseWriteLock(PDOM.java:1127)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:145)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.releaseWriteLock(WritableCIndex.java:130)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.setResume(AbstractIndexerTask.java:642)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:621)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-10-30 07:28:57.793
+!MESSAGE IOException
+!STACK 0
+java.io.IOException: An unexpected network error occurred
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite0(Native Method)
+	at java.base/sun.nio.ch.FileDispatcherImpl.pwrite(FileDispatcherImpl.java:81)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:135)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)
+	at java.base/sun.nio.ch.FileChannelImpl.writeInternal(FileChannelImpl.java:1028)
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:1009)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.write(Database.java:193)
+	at org.eclipse.cdt.internal.core.pdom.db.Chunk.flush(Chunk.java:55)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flushAndUnlockChunks(Database.java:806)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.flush(Database.java:784)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.flush(PDOM.java:1549)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.flush(WritablePDOM.java:195)
+	at org.eclipse.cdt.internal.core.index.WritableCIndex.flush(WritableCIndex.java:169)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:623)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
