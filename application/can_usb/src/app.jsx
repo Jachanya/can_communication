@@ -10,7 +10,7 @@ function App() {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3001/items');
+        const response = await fetch('http://10.207.140.106:5000/can_devices');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
