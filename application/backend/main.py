@@ -15,7 +15,7 @@ def list_pcan_devices():
               "Device ID:": cfg.get("device_id")
         }
         can_devices.append(device)
-        
+    print(can_devices)
     return can_devices
 
 app = Flask(__name__)

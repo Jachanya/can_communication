@@ -46,6 +46,10 @@ module.exports = {
             },
           ],
         },
+        devContentSecurityPolicy:
+          "default-src 'self'; " +
+          "script-src 'self' 'unsafe-eval' 'unsafe-inline'; " +
+          "connect-src 'self' http://127.0.0.1:5000;",
       },
     },
     // Fuses are used to enable/disable various Electron functionality

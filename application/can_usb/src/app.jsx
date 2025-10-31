@@ -1,6 +1,7 @@
 // index.jsx (or whatever your entry is)
 import * as React from 'react';
 import { createRoot } from 'react-dom/client';
+import Button from '@mui/material/Button';
 
 function App() {
   const [items, setItems] = React.useState([]);
@@ -10,7 +11,7 @@ function App() {
   React.useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://192.168.100.5:5000/can_devices');
+        const response = await fetch('http://127.0.0.1:5000/can_devices');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
