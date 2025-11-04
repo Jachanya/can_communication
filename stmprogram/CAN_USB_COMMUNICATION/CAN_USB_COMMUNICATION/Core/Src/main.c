@@ -19,11 +19,10 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_device.h"
-#include "usbd_cdc_if.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,7 +56,7 @@ static void MX_GPIO_Init(void);
 static void MX_FDCAN1_Init(void);
 static void MX_FDCAN2_Init(void);
 /* USER CODE BEGIN PFP */
-
+void Send_CANFD_Message(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -106,10 +105,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  uint8_t msg[] = {'H', 'E', 'L', 'L', 'O'};
+  uint8_t msg[] = "Hello from STM32H723ZG via USB CDC!\r\n";
   while (1)
   {
 	  CDC_Transmit_HS(msg, sizeof(msg)-1);
+	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+	  HAL_Delay(500);  // 500 ms delay
+	  Send_CANFD_Message();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -194,8 +196,8 @@ static void MX_FDCAN1_Init(void)
   /* USER CODE END FDCAN1_Init 1 */
   hfdcan1.Instance = FDCAN1;
   hfdcan1.Init.FrameFormat = FDCAN_FRAME_FD_NO_BRS;
-  hfdcan1.Init.Mode = FDCAN_MODE_NORMAL;
-  hfdcan1.Init.AutoRetransmission = DISABLE;
+  hfdcan1.Init.Mode = FDCAN_MODE_INTERNAL_LOOPBACK;
+  hfdcan1.Init.AutoRetransmission = ENABLE;
   hfdcan1.Init.TransmitPause = DISABLE;
   hfdcan1.Init.ProtocolException = DISABLE;
   hfdcan1.Init.NominalPrescaler = 16;
@@ -209,15 +211,15 @@ static void MX_FDCAN1_Init(void)
   hfdcan1.Init.MessageRAMOffset = 0;
   hfdcan1.Init.StdFiltersNbr = 0;
   hfdcan1.Init.ExtFiltersNbr = 0;
-  hfdcan1.Init.RxFifo0ElmtsNbr = 0;
+  hfdcan1.Init.RxFifo0ElmtsNbr = 1;
   hfdcan1.Init.RxFifo0ElmtSize = FDCAN_DATA_BYTES_8;
   hfdcan1.Init.RxFifo1ElmtsNbr = 0;
   hfdcan1.Init.RxFifo1ElmtSize = FDCAN_DATA_BYTES_8;
   hfdcan1.Init.RxBuffersNbr = 0;
   hfdcan1.Init.RxBufferSize = FDCAN_DATA_BYTES_8;
   hfdcan1.Init.TxEventsNbr = 0;
-  hfdcan1.Init.TxBuffersNbr = 0;
-  hfdcan1.Init.TxFifoQueueElmtsNbr = 0;
+  hfdcan1.Init.TxBuffersNbr = 2;
+  hfdcan1.Init.TxFifoQueueElmtsNbr = 4;
   hfdcan1.Init.TxFifoQueueMode = FDCAN_TX_FIFO_OPERATION;
   hfdcan1.Init.TxElmtSize = FDCAN_DATA_BYTES_8;
   if (HAL_FDCAN_Init(&hfdcan1) != HAL_OK)
@@ -225,7 +227,7 @@ static void MX_FDCAN1_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN FDCAN1_Init 2 */
-
+  if (HAL_FDCAN_Start(&hfdcan1)    != HAL_OK) { Error_Handler(); }
   /* USER CODE END FDCAN1_Init 2 */
 
 }
@@ -290,6 +292,7 @@ static void MX_FDCAN2_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
 
   /* USER CODE END MX_GPIO_Init_1 */
@@ -300,13 +303,42 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : PB0 */
+  GPIO_InitStruct.Pin = GPIO_PIN_0;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
   /* USER CODE END MX_GPIO_Init_2 */
 }
 
 /* USER CODE BEGIN 4 */
+void Send_CANFD_Message(void)
+{
+  uint8_t txData[8] = {0x11,0x22,0x33,0x44,0x55,0x66,0x77,0x88};
+  FDCAN_TxHeaderTypeDef txHeader;
+  txHeader.Identifier = 0x123;
+  txHeader.IdType = FDCAN_STANDARD_ID;
+  txHeader.TxFrameType = FDCAN_DATA_FRAME;
+  txHeader.DataLength = FDCAN_DLC_BYTES_8;      // for smaller payload; can be up to 64 bytes in FD
+  txHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
+  txHeader.BitRateSwitch = FDCAN_BRS_OFF;        // enable switching to faster data phase
+  txHeader.FDFormat = FDCAN_FD_CAN;             // FD format
+  txHeader.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
+  txHeader.MessageMarker = 0;
 
+  if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &txHeader, txData) != HAL_OK)
+  {
+    // Transmission failed
+    Error_Handler();
+  }
+}
 /* USER CODE END 4 */
 
  /* MPU Configuration */

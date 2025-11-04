@@ -1,0 +1,314 @@
+08:58:13 **** Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../USB_DEVICE/Target/usbd_conf.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/Target/usbd_conf.d" -MT"USB_DEVICE/Target/usbd_conf.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/Target/usbd_conf.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usb_device.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usb_device.d" -MT"USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_cdc_if.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_cdc_if.d" -MT"USB_DEVICE/App/usbd_cdc_if.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_cdc_if.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_desc.d" -MT"USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.o"
+arm-none-eabi-gcc "../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.d" -MT"Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h723zgtx.d" -MT"Core/Startup/startup_stm32h723zgtx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h723zgtx.o" "../Core/Startup/startup_stm32h723zgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  38288	    260	   9036	  47584	   b9e0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+09:04:40 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38288	    260	   9036	  47584	   b9e0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+09:05:53 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38288	    260	   9036	  47584	   b9e0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+09:07:30 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38288	    260	   9036	  47584	   b9e0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+09:39:43 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:11: warning: unused variable 'msg' [-Wunused-variable]
+  108 |   uint8_t msg[] = {'H', 'E', 'L', 'L', 'O'};
+      |           ^~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  22236	     16	   2824	  25076	   61f4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+09:42:46 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:11: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+  111 |           CDC_Transmit_FS(msg, sizeof(msg)-1)
+      |           ^~~~~~~~~~~~~~~
+../Core/Src/main.c:111:46: error: expected ';' before 'HAL_GPIO_TogglePin'
+  111 |           CDC_Transmit_FS(msg, sizeof(msg)-1)
+      |                                              ^
+      |                                              ;
+  112 |           HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+      |           ~~~~~~~~~~~~~~~~~~                  
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+09:43:03 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:11: warning: implicit declaration of function 'CDC_Transmit_FS' [-Wimplicit-function-declaration]
+  111 |           CDC_Transmit_FS(msg, sizeof(msg)-1);
+      |           ^~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+P:/CAN_USB/stmprogram/CAN_USB_COMMUNICATION/CAN_USB_COMMUNICATION/Debug/../Core/Src/main.c:111:(.text.main+0x38): undefined reference to `CDC_Transmit_FS'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:68: CAN_USB_COMMUNICATION.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+09:43:48 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:11: warning: unused variable 'msg' [-Wunused-variable]
+  108 |   uint8_t msg[] = "Hello from STM32H723ZG via USB CDC!\r\n";
+      |           ^~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  35624	    260	   8708	  44592	   ae30	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+09:44:51 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:111:11: warning: implicit declaration of function 'CDC_Transmit_FS'; did you mean 'CDC_Transmit_HS'? [-Wimplicit-function-declaration]
+  111 |           CDC_Transmit_FS(msg, sizeof(msg)-1);
+      |           ^~~~~~~~~~~~~~~
+      |           CDC_Transmit_HS
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+P:/CAN_USB/stmprogram/CAN_USB_COMMUNICATION/CAN_USB_COMMUNICATION/Debug/../Core/Src/main.c:111:(.text.main+0x38): undefined reference to `CDC_Transmit_FS'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:68: CAN_USB_COMMUNICATION.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+09:45:57 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:239:13: warning: 'MX_FDCAN2_Init' defined but not used [-Wunused-function]
+  239 | static void MX_FDCAN2_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:186:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+  186 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  35836	    260	   8708	  44804	   af04	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+10:01:24 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+10:03:23 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  38516	    260	   9036	  47812	   bac4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+11:40:24 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+11:41:31 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+11:43:05 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+11:47:56 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+11:48:39 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39076	    260	   9036	  48372	   bcf4	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+11:52:01 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  39072	    260	   9036	  48368	   bcf0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
+11:53:37 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39072	    260	   9036	  48368	   bcf0	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+12:00:41 **** Incremental Build of configuration Debug for project CAN_USB_COMMUNICATION ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "CAN_USB_COMMUNICATION.elf" @"objects.list"   -mcpu=cortex-m7 -T"P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CAN_USB_COMMUNICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: CAN_USB_COMMUNICATION.elf
+ 
+arm-none-eabi-size  CAN_USB_COMMUNICATION.elf 
+arm-none-eabi-objdump -h -S CAN_USB_COMMUNICATION.elf  > "CAN_USB_COMMUNICATION.list"
+   text	   data	    bss	    dec	    hex	filename
+  39172	    260	   9036	  48468	   bd54	CAN_USB_COMMUNICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: CAN_USB_COMMUNICATION.list
+ 
