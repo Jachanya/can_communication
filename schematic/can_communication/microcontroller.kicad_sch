@@ -3876,6 +3876,50 @@
 			)
 		)
 	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 224.79 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1651e258-37b6-4489-af7d-0c5d9ae34b87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.4514 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DN_P"
+		(shape input)
+		(at 224.79 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d9cb3da-d70e-4fad-aed1-91a412fe6222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.3909 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2_RX"
 		(shape input)
 		(at 231.14 116.84 0)
@@ -3933,6 +3977,28 @@
 		(uuid "839b7125-f39e-4069-ab32-bbba176e720c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.1685 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP_P"
+		(shape input)
+		(at 224.79 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f5172e4-efff-4062-a96e-407b373bd67d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.3304 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

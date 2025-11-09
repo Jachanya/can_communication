@@ -1404,6 +1404,14 @@
 		(color 0 0 0 0)
 		(uuid "a0f8f44e-9647-4142-aa18-15ddb047873f")
 	)
+	(no_connect
+		(at 90.17 96.52)
+		(uuid "60e68195-3950-478c-9188-48e778086803")
+	)
+	(no_connect
+		(at 90.17 99.06)
+		(uuid "90713e12-51fd-41dc-ba6d-683134eeeebb")
+	)
 	(wire
 		(pts
 			(xy 90.17 86.36) (xy 90.17 88.9)
@@ -1594,6 +1602,28 @@
 			)
 		)
 	)
+	(global_label "USB_DN_P"
+		(shape input)
+		(at 144.78 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cab080c-9d69-4842-8bc8-484b17193afe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3809 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DN"
 		(shape input)
 		(at 93.98 81.28 0)
@@ -1607,6 +1637,50 @@
 		(uuid "6b0a3ebe-763e-4e7c-9533-cff9022c1330")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.3433 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 139.7 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ffbdbda-4d04-4934-a790-07f01f46270d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 62.2686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP_P"
+		(shape input)
+		(at 144.78 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c3fe528-3752-4a77-b130-ba809972208a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3204 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,6 +1708,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 90.17 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cacad550-cb04-4f6a-b270-0a05f7173ff1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.8314 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
