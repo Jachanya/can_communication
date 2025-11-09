@@ -1,32 +1,43 @@
 import sys
-from PyQt6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
+from PyQt6.QtWidgets import (
+    QApplication, QMainWindow, QWidget,
+    QLabel, QPushButton, QVBoxLayout
+)
 from PyQt6.QtCore import Qt
 
-# Every PyQt app needs one QApplication instance
-app = QApplication(sys.argv)
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self._init_ui()
 
-# Create the main window
-window = QWidget()
-window.setWindowTitle("CAN COMMUNICATOR")
+    def _init_ui(self):
+        self.setWindowTitle("PyQt6 Basic Application")
+        self.setGeometry(100, 100, 400, 300)  # x, y, width, height
 
-# Set an initial size, but allow resizing
-window.resize(500, 300)
+        # Create central widget and set layout
+        central_widget = QWidget()
+        self.setCentralWidget(central_widget)
 
-# Add a label (centered)
-label = QLabel("Greatest CAN application in the world")
-label.setAlignment(Qt.AlignmentFlag.AlignCenter)  # Keep it centered even when resized
-label.setWordWrap(True)  # Wrap text if the window becomes narrow
+        # Widgets
+        self.label = QLabel("Hello, PyQt6!", self)
+        self.label.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.button = QPushButton("Click me", self)
+        self.button.clicked.connect(self.on_button_clicked)
 
-# Create a layout that expands with the window
-layout = QVBoxLayout()
-layout.addStretch()       # Add flexible space above
-layout.addWidget(label)
-layout.addStretch()       # Add flexible space below
+        # Layout
+        layout = QVBoxLayout()
+        layout.addWidget(self.label)
+        layout.addWidget(self.button)
+        central_widget.setLayout(layout)
 
-window.setLayout(layout)
+    def on_button_clicked(self):
+        self.label.setText("Button clicked!")
 
-# Show the window
-window.show()
+def main():
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
 
-# Start the event loop
-sys.exit(app.exec())
+if __name__ == "__main__":
+    main()
