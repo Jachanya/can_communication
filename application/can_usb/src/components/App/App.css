@@ -1,0 +1,10 @@
+/* App.css */
+.app-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Remove any max‑width or large padding from body or html */
+  
