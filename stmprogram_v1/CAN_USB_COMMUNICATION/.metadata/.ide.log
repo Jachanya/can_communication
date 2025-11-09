@@ -1,0 +1,116 @@
+2025-10-30 07:19:15,155 [INFO] WebApp:194 - Connection lost
+2025-10-30 07:19:24,337 [INFO] WebApp:191 - Connection restablished
+2025-10-30 07:22:56,525 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-10-30 07:23:10,846 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,490x337,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-10-30 07:23:37,225 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,229 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,231 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,237 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,240 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,244 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,316 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,319 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:37,322 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:41,855 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:41,859 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:23:41,862 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,856 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,860 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,864 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,870 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,872 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:23,876 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:24,044 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:24,047 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:24,050 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:26,943 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:26,947 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:26,950 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:24:28,184 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 866726376 Bytes (1073741824)
+2025-10-30 07:24:57,744 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 914434536 Bytes (1073741824)
+2025-10-30 07:25:34,966 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 761470832 Bytes (1073741824)
+2025-10-30 07:25:58,422 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_OTG_HS
+2025-10-30 07:25:58,439 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FDCAN
+2025-10-30 07:25:58,443 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-10-30 07:25:58,454 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: FDCAN
+2025-10-30 07:25:58,459 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: MEMORYMAP
+2025-10-30 07:25:58,465 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USB_DEVICE
+2025-10-30 07:25:58,469 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-10-30 07:25:58,472 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-10-30 07:25:58,478 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: CORTEX_M7
+2025-10-30 07:25:58,482 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-10-30 07:25:58,516 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-10-30 07:25:58,543 [WARN] IP:2250 - ClockDivider not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,550 [WARN] IP:2250 - ClockDividerCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,553 [WARN] IP:2250 - MinOscClkPeriodsCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,555 [WARN] IP:2250 - TimeQuantaPerBitTimeCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,558 [WARN] IP:2250 - WatchdogStartValueCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,565 [WARN] IP:2250 - ClockDivider not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,568 [WARN] IP:2250 - ClockDividerCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,574 [WARN] IP:2250 - MinOscClkPeriodsCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,577 [WARN] IP:2250 - TimeQuantaPerBitTimeCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,580 [WARN] IP:2250 - WatchdogStartValueCCU not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,667 [WARN] IP:2250 - DEVICE_SERIAL0_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,671 [WARN] IP:2250 - DEVICE_SERIAL1_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:58,673 [WARN] IP:2250 - DEVICE_SERIAL2_CDC_HS not found: check if there is a RefParameter without a condition.
+2025-10-30 07:25:59,254 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\license.tmp_save
+2025-10-30 07:26:00,584 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\license.tmp
+2025-10-30 07:26:01,515 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\gpio.tmp_save
+2025-10-30 07:26:02,534 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\gpio.tmp
+2025-10-30 07:26:03,393 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_vars.tmp_save
+2025-10-30 07:26:04,128 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_vars.tmp
+2025-10-30 07:26:04,492 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_inc.tmp_save
+2025-10-30 07:26:05,186 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_inc.tmp
+2025-10-30 07:26:05,538 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_HalInit.tmp_save
+2025-10-30 07:26:06,391 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_HalInit.tmp
+2025-10-30 07:26:06,694 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_Msp.tmp_save
+2025-10-30 07:26:07,552 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\usb_otg_hs_Msp.tmp
+2025-10-30 07:26:08,278 [WARN] IPConfigManager:103 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-10-30 07:26:08,818 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-10-30 07:26:08,831 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL1_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:08,836 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL2_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:08,839 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL0_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:09,181 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\cortex.tmp_save
+2025-10-30 07:26:10,025 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\cortex.tmp
+2025-10-30 07:26:10,386 [INFO] Middleware:1452 - No code input for Bsp Dependency
+2025-10-30 07:26:10,392 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL1_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:10,395 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL2_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:10,399 [ERROR] SWIPConfigModel:147 - Object (RefParameter) name : DEVICE_SERIAL0_CDC_HS  is not a String or a Boolean
+2025-10-30 07:26:10,759 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usb_device.c_save
+2025-10-30 07:26:12,962 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usb_device.c
+2025-10-30 07:26:13,745 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usb_device.h_save
+2025-10-30 07:26:15,510 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usb_device.h
+2025-10-30 07:26:16,261 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\Target\usbd_conf.h_save
+2025-10-30 07:26:17,800 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\Target\usbd_conf.h
+2025-10-30 07:26:18,350 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\Target\usbd_conf.c_save
+2025-10-30 07:26:20,228 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\Target\usbd_conf.c
+2025-10-30 07:26:20,728 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.h_save
+2025-10-30 07:26:21,987 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.h
+2025-10-30 07:26:22,397 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.c_save
+2025-10-30 07:26:23,820 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_desc.c
+2025-10-30 07:26:24,345 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.h_save
+2025-10-30 07:26:25,529 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.h
+2025-10-30 07:26:25,984 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.c_save
+2025-10-30 07:26:27,082 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\USB_DEVICE\App\usbd_cdc_if.c
+2025-10-30 07:26:28,050 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_it.c_save
+2025-10-30 07:26:29,586 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_it.c
+2025-10-30 07:26:30,187 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_it.h_save
+2025-10-30 07:26:31,520 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_it.h
+2025-10-30 07:26:32,804 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_hal_msp.c_save
+2025-10-30 07:26:34,498 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\stm32h7xx_hal_msp.c
+2025-10-30 07:26:34,949 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\system.tmp_save
+2025-10-30 07:26:35,733 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\MXTmpFiles\system.tmp
+2025-10-30 07:26:36,543 [INFO] CodeEngine:319 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_hal_conf.h_save
+2025-10-30 07:26:37,922 [INFO] CodeEngine:343 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\stm32h7xx_hal_conf.h
+2025-10-30 07:26:38,540 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-10-30 07:26:38,552 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-10-30 07:26:39,031 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\main.h_save
+2025-10-30 07:26:40,460 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Inc\main.h
+2025-10-30 07:26:41,121 [INFO] CodeEngine:263 - oldGeneratedFile, P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\main.c_save
+2025-10-30 07:26:42,825 [INFO] CodeEngine:287 - Generated code: P:\CAN_USB\stmprogram\CAN_USB_COMMUNICATION\CAN_USB_COMMUNICATION\Core\Src\main.c
+2025-10-30 07:26:55,838 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 11691mS.
+2025-10-30 07:26:56,552 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-30 07:26:56,686 [INFO] ConfigFileManager:1590 - The Die is : DIE483
+2025-10-30 07:28:42,109 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 105558mS.
+2025-10-30 07:28:42,130 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 18mS.
+2025-10-30 07:28:43,406 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
